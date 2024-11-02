@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.swiper-body{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.swiper-body .swiper-txt{
+    padding:10px;
+}
+.swiper-body .swiper-txt h3{
+    padding: 5px;
+}
+.swiper-body .swiper-txt p{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.swiper-body .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-body .btn button{
+    padding: 10px 25px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.swiper-body .btn button:hover{
+    background-color: white;
+    color: black;
+}
+.swiper-img{
+    padding: 5px;
+    border-radius: 20px;
+}
+.swiper-img img{
+    width: 100%;
+    border-radius: 20px;
+}

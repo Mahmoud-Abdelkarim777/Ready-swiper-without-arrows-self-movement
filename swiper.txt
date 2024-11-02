@@ -1,0 +1,71 @@
+<div class="mt-5">
+            <swiper-container
+            class="mySwiper" 
+            
+            loop="true" 
+            speed="1000" 
+            autoplay="true" 
+            autoplay-delay="0" 
+            autoplay-disable-on-interaction="false"
+            breakpoints='{
+                "767": {
+                    "slidesPerView": 1
+                },
+                "992": {
+                    "slidesPerView": 2
+                },
+                "1200": {
+                    "slidesPerView": 3
+                }
+            }'
+            >
+                <swiper-slide class="relative">
+                    <div class="flex items-center justify-center flex-col ">
+                        <i class="fa-brands fa-html5 text-7xl"></i>
+                        <P>HTML 5</P>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="flex items-center justify-center flex-col ">
+                        <i class="fa-brands fa-css3-alt text-7xl"></i>
+                        <p>CSS 3</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="flex items-center justify-center flex-col ">
+                        <i class="fa-brands fa-bootstrap text-7xl"></i>
+                        <P>BOOTSTRAP</P>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="flex items-center justify-center flex-col gap-5">
+                        <img src="./images/tailwind.png" width="80px" alt="foto">
+                        <P>Tailwind CSS</P>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="flex items-center justify-center flex-col ">
+                        <i class="fa-brands fa-js text-7xl"></i>
+                        <P>JS</P>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="flex items-center justify-center flex-col ">
+                        <i class="fa-brands fa-react text-7xl"></i>
+                        <P>REACT</P>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="flex items-center justify-center flex-col ">
+                        <i class="fa-brands fa-github text-7xl"></i>
+                        <P>GITHUB</P>
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+
+
+
+
+ 	body اخر حاجة فوق تاجة ال 
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
